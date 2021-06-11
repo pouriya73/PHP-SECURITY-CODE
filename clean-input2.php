@@ -5,4 +5,5 @@ function cleanInput($str_input) {
         }
 $str_input = trim($str_input);
 $str_input = stripslashes($str_input);
+$str_input = htmlspecialchars($str_input);
 }
