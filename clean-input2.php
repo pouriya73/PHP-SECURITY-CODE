@@ -4,4 +4,5 @@ function cleanInput($str_input) {
          return "";
         }
 $str_input = trim($str_input);
+$str_input = stripslashes($str_input);
 }
